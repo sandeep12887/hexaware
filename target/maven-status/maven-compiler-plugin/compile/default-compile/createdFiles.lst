@@ -1,0 +1,8 @@
+com\adactin\helper\PageObjectManager.class
+com\adactin\pom\AdactinHomePage.class
+com\adactin\pom\AdactinHotelPage.class
+com\adactin\pom\AdactinBookingConfirmationPage.class
+com\adactin\pom\AdactinBookedItenaryPage.class
+com\adactin\pom\AdactinLoginPage.class
+com\adactin\baseclass\AdactinBaseClass.class
+com\adactin\pom\AdactinBookHotelPage.class

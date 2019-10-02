@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="36.615479">
+<testcase classname="Login functionality for Adactin web application" name="User verify for valid login credentials" time="19.287046">
+<system-out><![CDATA[Given User should launch the browser........................................passed
+And User hold for '3' seconds...............................................passed
+Then User should verify the Welcome to AdactIn Group of Hotels is displayed in the login page.passed
+When User enters the username in the login page.............................passed
+And User enters the password in the login page..............................passed
+And User clicks the Login button in the login page..........................passed
+And User hold for '3' seconds...............................................passed
+And User clicks the Logout button in home page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality for Adactin web application" name="User to verify whether the check-out date field accepts a later date than checkin date" time="17.328433">
+<system-out><![CDATA[Given User should launch the browser........................................passed
+And User hold for '3' seconds...............................................passed
+Then User should verify the Welcome to AdactIn Group of Hotels is displayed in the login page.passed
+When User enters the username in the login page.............................passed
+And User enters the password in the login page..............................passed
+And User clicks the Login button in the login page..........................passed
+And User hold for '3' seconds...............................................passed
+When User select the location using drop down...............................passed
+And User select the hotel using drop down...................................passed
+And User select the room type using drop down...............................passed
+And User select the no of rooms using drop down.............................passed
+And User enter the check-in date............................................passed
+And User enter the check-out date...........................................passed
+And User select the adult per room using drop down..........................passed
+And User select the children per room using drop down.......................passed
+And User clicks the search button...........................................passed
+Then User should verify the error message is displayed......................passed
+When User waits for '3' seconds.............................................passed
+And User clicks the Logout button in home page..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

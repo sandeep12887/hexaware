@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.adactin.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 2, Skipped: 7, Time elapsed: 25.719 s <<< FAILURE! - in com.adactin.runner.TestRunner
+Given User should launch the browser(Scenario: User verify for valid login credentials)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.RuntimeException
+
+Scenario: User verify for valid login credentials  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.RuntimeException
+
